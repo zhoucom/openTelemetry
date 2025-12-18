@@ -1,0 +1,31 @@
+########################
+# Node / frontend
+########################
+node_modules/
+frontend/node_modules/
+mini-collector/node_modules/
+
+dist/
+frontend/dist/
+
+########################
+# Java / Maven
+########################
+**/target/
+
+# 但保留两个可运行的 Spring Boot Jar
+!service-a/target/service-a-0.0.1-SNAPSHOT.jar
+!service-b/target/service-b-0.0.1-SNAPSHOT.jar
+
+########################
+# IDE / OS
+########################
+.idea/
+*.iml
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+
